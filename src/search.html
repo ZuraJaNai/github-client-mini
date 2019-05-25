@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Github mini client</title>
+  </head>
+  <body>
+    <a href="/">← Go Back</a>
+    <h2 class="header">Search</h2>
+    <div id="search">
+      <div class="params">
+        <div>
+          <label for="starred-count">
+            Starred >= <input type="text" id="starred-count" /> times
+          </label>
+        </div>
+        <div>
+          <p>Type</p>
+          <select id="type-select">
+            <option value="all">All</option>
+            <option value="forks">Forks</option>
+            <option value="sources">Sources</option>
+          </select>
+        </div>
+        <div>
+          <p>Order</p>
+          <select id="order-select">
+            <option value="ascending">Ascending</option>
+            <option value="descending">Descending</option>
+          </select>
+        </div>
+        <div>
+          <p>Sort by</p>
+          <select id="order-type-select">
+            <option value="name">Repo name</option>
+            <option value="stargazers_count">Stars count</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" id="search-params">Apply</button>
+    </div>
+    <div id="repos"></div>
+  </body>
+</html>
