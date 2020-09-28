@@ -21,11 +21,11 @@
     "mini-css-extract-plugin": "^0.6.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
-    "axios": "^0.18.0"
+    "axios": "^0.18.1"
   }
 }
